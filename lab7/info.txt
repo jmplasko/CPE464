@@ -1,0 +1,1364 @@
+sfdghdjfghfhjkhjgfjklkhjgfjghcjgjdghjgdhjpenis worldgdjfgjfg
+jfgxjndfxjxgfhjgchjgjxfvcknnsldfjldskfjkllkdmklgkljfgjdglkjfdlkjgdljgfdlkjgfdjgl;kdsjgfdslkjg;ldksfjg;kldfjgkl;fdsjg;lkdfsjgl;ksdfjglkdfsjgdf
+dfsjgldfksjgdlkfjglkdfjgsdfkgjlkfds
+fgjkldsfjgkdflgjlkdfgjdlfkjglkdfjgldkfjgjksdflgkjsdflkgjlksdfjgklfdjgklfdjglkdfjsglkjfglkjfdjgsdjlf
+fsd
+gjkdsfjglsdfjg
+af
+kglsdljg
+sdfgk
+dfsjg
+sfdjg
+fsdgjk
+fdsljg
+lskdjg
+lksfdjgljklfdjgdfkljslkdsglkdjglkfdjglksjglkjlkgsjlkfjglksjdlgkjsdlkfjgklsfdjglkjdsflkjglkfsdjgkljlksfdjglkdjfslkjgsflkdjgkdjfglkjdfklglkdfsjlkgfdjglkdfsjglkdjfglkg
+you're cool
+jplasko@unix3:~/CPE464/lab7 $ ./rcopy info.txt take.txt 1 400 0 unix3.csc.calpol
+y.edu 45764
+Send Err-INIT ErrRate: 0.00 Drop: Y Flip: Y Rand: Y Debug: Y
+SEND MSG#   1 SEQ#   0 LEN   19 FLAGS 7  -FNAME    
+RECV          SEQ#   0 LEN    7 FLAGS 8  -FNAME response
+RECV          SEQ#   1 LEN   19 FLAGS 3  -Data #:    1
+SEND MSG#   2 SEQ#   1 LEN   11 FLAGS 5  -RR #:      1
+RECV          SEQ#   2 LEN    8 FLAGS 10  -User defined 
+SEND MSG#   3 SEQ#   2 LEN    8 FLAGS 11  -User defined 
+======== SeqNo Report ========
+  Msgs (Total)       :     3
+  Msgs (Unique SeqNo):     3
+==============================
+jplasko@unix3:~/CPE464/lab7 $ make
+gcc -c -g -Wall srej.c -o srej.o 
+gcc -g -Wall -o rcopy rcopy.c networks.o gethostbyname.o srej.o libcpe464.2.20.a -lstdc++ -ldl
+rcopy.c: In function âeck_argsârcopy.c:216:3: warning: format ââxpects argument of type âtâbut argument
+ 2 has type âze_tâ-Wformat=]
+   printf("FROM filename to long needs to be less than 100 and is: %d\n", strlen(argv[1]));
+   ^
+rcopy.c:222:3: warning: format ââxpects argument of type âtâbut argument
+ 2 has type âze_tâ-Wformat=]
+   printf("TO filename to long needs to be less than 100 and is: %d\n", strlen(argv[1]));
+   ^
+gcc -g -Wall -o server server.c networks.o gethostbyname.o srej.o libcpe464.2.20.a -lstdc++ -ldl
+jplasko@unix3:~/CPE464/lab7 $ ./rcopy info.txt take.txt 1 400 0 unix3.csc.calpol
+y.edu 41050
+Send Err-INIT ErrRate: 0.00 Drop: Y Flip: Y Rand: Y Debug: Y
+SEND MSG#   1 SEQ#   0 LEN   19 FLAGS 7  -FNAME    
+RECV          SEQ#   0 LEN    7 FLAGS 8  -FNAME response
+RECV          SEQ#   1 LEN   19 FLAGS 3  -Data #:    1
+SEND MSG#   2 SEQ#   1 LEN   11 FLAGS 5  -RR #:      1
+RECV          SEQ#   2 LEN    8 FLAGS 10  -User defined 
+SEND MSG#   3 SEQ#   2 LEN    8 FLAGS 11  -User defined 
+======== SeqNo Report ========
+  Msgs (Total)       :     3
+  Msgs (Unique SeqNo):     3
+==============================
+jplasko@unix3:~/CPE464/lab7 $ vim info.txt
+penis world
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+"info.txt" 1L, 12C written                                    
+jplasko@unix3:~/CPE464/lab7 $ ./rcopy info.txt take.txt 1 400 0 unix3.csc.calpoly.edu 41050
+Send Err-INIT ErrRate: 0.00 Drop: Y Flip: Y Rand: Y Debug: Y
+SEND MSG#   1 SEQ#   0 LEN   19 FLAGS 7  -FNAME    
+RECV          SEQ#   0 LEN    7 FLAGS 8  -FNAME response
+RECV          SEQ#   1 LEN   19 FLAGS 3  -Data #:    1
+SEND MSG#   2 SEQ#   1 LEN   11 FLAGS 5  -RR #:      1
+RECV          SEQ#   2 LEN    8 FLAGS 10  -User defined 
+SEND MSG#   3 SEQ#   2 LEN    8 FLAGS 11  -User defined 
+======== SeqNo Report ========
+  Msgs (Total)       :     3
+  Msgs (Unique SeqNo):     3
+==============================
+jplasko@unix3:~/CPE464/lab7 $ cat take.txt
+penis world
+jplasko@unix3:~/CPE464/lab7 $ make
+gcc -c -g -Wall srej.c -o srej.o 
+gcc -g -Wall -o rcopy rcopy.c networks.o gethostbyname.o srej.o libcpe464.2.20.a -lstdc++ -ldl
+rcopy.c: In function âeck_argsârcopy.c:216:3: warning: format ââxpects argument of type âtâbut argument
+ 2 has type âze_tâ-Wformat=]
+   printf("FROM filename to long needs to be less than 100 and is: %d\n", strlen(argv[1]));
+   ^
+rcopy.c:222:3: warning: format ââxpects argument of type âtâbut argument
+ 2 has type âze_tâ-Wformat=]
+   printf("TO filename to long needs to be less than 100 and is: %d\n", strlen(argv[1]));
+   ^
+gcc -g -Wall -o server server.c networks.o gethostbyname.o srej.o libcpe464.2.20.a -lstdc++ -ldl
+jplasko@unix3:~/CPE464/lab7 $ ./rcopy info.txt take.txt 1 400 0 unix3.csc.calpol
+y.edu 56016
+Send Err-INIT ErrRate: 0.00 Drop: Y Flip: Y Rand: Y Debug: Y
+SEND MSG#   1 SEQ#   0 LEN   19 FLAGS 7  -FNAME    
+RECV          SEQ#   0 LEN    7 FLAGS 9  -User defined 
+======== SeqNo Report ========
+  Msgs (Total)       :     1
+  Msgs (Unique SeqNo):     1
+==============================
+jplasko@unix3:~/CPE464/lab7 $ ./rcopy info.txt take.txt 1 400 0 unix3.csc.calpoly.edu 56016
+Send Err-INIT ErrRate: 0.00 Drop: Y Flip: Y Rand: Y Debug: Y
+SEND MSG#   1 SEQ#   0 LEN   19 FLAGS 7  -FNAME    
+RECV          SEQ#   0 LEN    7 FLAGS 9  -User defined 
+======== SeqNo Report ========
+  Msgs (Total)       :     1
+  Msgs (Unique SeqNo):     1
+==============================
+jplasko@unix3:~/CPE464/lab7 $ make
+gcc -c -g -Wall srej.c -o srej.o 
+gcc -g -Wall -o rcopy rcopy.c networks.o gethostbyname.o srej.o libcpe464.2.20.a -lstdc++ -ldl
+rcopy.c: In function âeck_argsârcopy.c:216:3: warning: format ââxpects argument of type âtâbut argument
+ 2 has type âze_tâ-Wformat=]
+   printf("FROM filename to long needs to be less than 100 and is: %d\n", strlen(argv[1]));
+   ^
+rcopy.c:222:3: warning: format ââxpects argument of type âtâbut argument
+ 2 has type âze_tâ-Wformat=]
+   printf("TO filename to long needs to be less than 100 and is: %d\n", strlen(argv[1]));
+   ^
+gcc -g -Wall -o server server.c networks.o gethostbyname.o srej.o libcpe464.2.20.a -lstdc++ -ldl
+jplasko@unix3:~/CPE464/lab7 $ ./rcopy info.txt take.txt 1 400 0 unix3.csc.calpol
+y.edu 33232
+Send Err-INIT ErrRate: 0.00 Drop: Y Flip: Y Rand: Y Debug: Y
+SEND MSG#   1 SEQ#   0 LEN   19 FLAGS 7  -FNAME    
+RECV          SEQ#   0 LEN    7 FLAGS 8  -FNAME response
+RECV          SEQ#   1 LEN   19 FLAGS 3  -Data #:    1
+SEND MSG#   2 SEQ#   1 LEN   11 FLAGS 5  -RR #:      1
+RECV          SEQ#   2 LEN    8 FLAGS 10  -User defined 
+SEND MSG#   3 SEQ#   2 LEN    8 FLAGS 11  -User defined 
+======== SeqNo Report ========
+  Msgs (Total)       :     3
+  Msgs (Unique SeqNo):     3
+==============================
+jplasko@unix3:~/CPE464/lab7 $ make
+make: Nothing to be done for `all'.
+jplasko@unix3:~/CPE464/lab7 $ make
+gcc -c -g -Wall srej.c -o srej.o 
+gcc -g -Wall -o rcopy rcopy.c networks.o gethostbyname.o srej.o libcpe464.2.20.a -lstdc++ -ldl
+rcopy.c: In function âeck_argsârcopy.c:216:3: warning: format ââxpects argument of type âtâbut argument
+ 2 has type âze_tâ-Wformat=]
+   printf("FROM filename to long needs to be less than 100 and is: %d\n", strlen(argv[1]));
+   ^
+rcopy.c:222:3: warning: format ââxpects argument of type âtâbut argument
+ 2 has type âze_tâ-Wformat=]
+   printf("TO filename to long needs to be less than 100 and is: %d\n", strlen(argv[1]));
+   ^
+gcc -g -Wall -o server server.c networks.o gethostbyname.o srej.o libcpe464.2.20.a -lstdc++ -ldl
+jplasko@unix3:~/CPE464/lab7 $ ./rcopy info.txt take.txt 1 400 0 unix3.csc.calpol
+y.edu 42041
+Send Err-INIT ErrRate: 0.00 Drop: Y Flip: Y Rand: Y Debug: Y
+SEND MSG#   1 SEQ#   0 LEN   19 FLAGS 7  -FNAME    
+RECV          SEQ#   0 LEN    7 FLAGS 8  -FNAME response
+RECV          SEQ#   1 LEN   19 FLAGS 3  -Data #:    1
+SEND MSG#   2 SEQ#   1 LEN   11 FLAGS 5  -RR #:      1
+RECV          SEQ#   2 LEN    8 FLAGS 10  -User defined 
+SEND MSG#   3 SEQ#   2 LEN    8 FLAGS 11  -User defined 
+======== SeqNo Report ========
+  Msgs (Total)       :     3
+  Msgs (Unique SeqNo):     3
+==============================
+jplasko@unix3:~/CPE464/lab7 $ make
+gcc -c -g -Wall srej.c -o srej.o 
+gcc -g -Wall -o rcopy rcopy.c networks.o gethostbyname.o srej.o libcpe464.2.20.a -lstdc++ -ldl
+rcopy.c: In function âeck_argsârcopy.c:216:3: warning: format ââxpects argument of type âtâbut argument
+ 2 has type âze_tâ-Wformat=]
+   printf("FROM filename to long needs to be less than 100 and is: %d\n", strlen(argv[1]));
+   ^
+rcopy.c:222:3: warning: format ââxpects argument of type âtâbut argument
+ 2 has type âze_tâ-Wformat=]
+   printf("TO filename to long needs to be less than 100 and is: %d\n", strlen(argv[1]));
+   ^
+gcc -g -Wall -o server server.c networks.o gethostbyname.o srej.o libcpe464.2.20.a -lstdc++ -ldl
+jplasko@unix3:~/CPE464/lab7 $ ./rcopy info.txt take.txt 1 400 0 unix3.csc.calpol
+y.edu 38809
+Send Err-INIT ErrRate: 0.00 Drop: Y Flip: Y Rand: Y Debug: Y
+SEND MSG#   1 SEQ#   0 LEN   19 FLAGS 7  -FNAME    
+RECV          SEQ#   0 LEN    7 FLAGS 9  -User defined 
+======== SeqNo Report ========
+  Msgs (Total)       :     1
+  Msgs (Unique SeqNo):     1
+==============================
+jplasko@unix3:~/CPE464/lab7 $ make
+gcc -c -g -Wall srej.c -o srej.o 
+gcc -g -Wall -o rcopy rcopy.c networks.o gethostbyname.o srej.o libcpe464.2.20.a -lstdc++ -ldl
+rcopy.c: In function âeck_argsârcopy.c:216:3: warning: format ââxpects argument of type âtâbut argument
+ 2 has type âze_tâ-Wformat=]
+   printf("FROM filename to long needs to be less than 100 and is: %d\n", strlen(argv[1]));
+   ^
+rcopy.c:222:3: warning: format ââxpects argument of type âtâbut argument
+ 2 has type âze_tâ-Wformat=]
+   printf("TO filename to long needs to be less than 100 and is: %d\n", strlen(argv[1]));
+   ^
+gcc -g -Wall -o server server.c networks.o gethostbyname.o srej.o libcpe464.2.20.a -lstdc++ -ldl
+jplasko@unix3:~/CPE464/lab7 $ make
+make: Nothing to be done for `all'.
+jplasko@unix3:~/CPE464/lab7 $ ./rcopy info.txt take.txt 1 400 0 unix3.csc.calpol
+y.edu 47480
+Send Err-INIT ErrRate: 0.00 Drop: Y Flip: Y Rand: Y Debug: Y
+SEND MSG#   1 SEQ#   0 LEN   19 FLAGS 7  -FNAME    
+RECV          SEQ#   0 LEN    7 FLAGS 8  -FNAME response
+RECV          SEQ#   1 LEN   19 FLAGS 3  -Data #:    1
+SEND MSG#   2 SEQ#   1 LEN   11 FLAGS 5  -RR #:      1
+RECV          SEQ#   2 LEN    8 FLAGS 10  -User defined 
+SEND MSG#   3 SEQ#   2 LEN    8 FLAGS 11  -User defined 
+======== SeqNo Report ========
+  Msgs (Total)       :     3
+  Msgs (Unique SeqNo):     3
+==============================
+jplasko@unix3:~/CPE464/lab7 $ make
+gcc -c -g -Wall srej.c -o srej.o 
+gcc -g -Wall -o rcopy rcopy.c networks.o gethostbyname.o srej.o libcpe464.2.20.a -lstdc++ -ldl
+rcopy.c: In function âeck_argsârcopy.c:216:3: warning: format ââxpects argument of type âtâbut argument
+ 2 has type âze_tâ-Wformat=]
+   printf("FROM filename to long needs to be less than 100 and is: %d\n", strlen(argv[1]));
+   ^
+rcopy.c:222:3: warning: format ââxpects argument of type âtâbut argument
+ 2 has type âze_tâ-Wformat=]
+   printf("TO filename to long needs to be less than 100 and is: %d\n", strlen(argv[1]));
+   ^
+gcc -g -Wall -o server server.c networks.o gethostbyname.o srej.o libcpe464.2.20.a -lstdc++ -ldl
+jplasko@unix3:~/CPE464/lab7 $ ./rcopy info.txt take.txt 1 400 0 unix3.csc.calpol
+y.edu 58363
+Send Err-INIT ErrRate: 0.00 Drop: Y Flip: Y Rand: Y Debug: Y
+SEND MSG#   1 SEQ#   0 LEN   19 FLAGS 7  -FNAME    
+RECV          SEQ#   0 LEN    7 FLAGS 9  -User defined 
+======== SeqNo Report ========
+  Msgs (Total)       :     1
+  Msgs (Unique SeqNo):     1
+==============================
+jplasko@unix3:~/CPE464/lab7 $ make
+gcc -g -Wall -o server server.c networks.o gethostbyname.o srej.o libcpe464.2.20.a -lstdc++ -ldl
+jplasko@unix3:~/CPE464/lab7 $ ./rcopy info.txt take.txt 1 400 0 unix3.csc.calpol
+y.edu 38315
+Send Err-INIT ErrRate: 0.00 Drop: Y Flip: Y Rand: Y Debug: Y
+SEND MSG#   1 SEQ#   0 LEN   19 FLAGS 7  -FNAME    
+RECV          SEQ#   0 LEN    7 FLAGS 8  -FNAME response
+RECV          SEQ#   1 LEN   19 FLAGS 3  -Data #:    1
+SEND MSG#   2 SEQ#   1 LEN   11 FLAGS 5  -RR #:      1
+RECV          SEQ#   2 LEN    8 FLAGS 10  -User defined 
+SEND MSG#   3 SEQ#   2 LEN    8 FLAGS 11  -User defined 
+======== SeqNo Report ========
+  Msgs (Total)       :     3
+  Msgs (Unique SeqNo):     3
+==============================
+jplasko@unix3:~/CPE464/lab7 $ vim info.txt
+sfdghdjfghfhjkhjgfjklkhjgfjghcjgjdghjgdhjpenis worldgdjfgjfg
+jfgxjndfxjxgfhjgchjgjxfvcknnsldfjldskfjkllkdmklgkljfgjdglkjfdlkjgdljgfdlkjgfdjgl
+;kdsjgfdslkjg;ldksfjg;kldfjgkl;fdsjg;lkdfsjgl;ksdfjglkdfsjgdf
+dfsjgldfksjgdlkfjglkdfjgsdfkgjlkfds
+fgjkldsfjgkdflgjlkdfgjdlfkjglkdfjgldkfjgjksdflgkjsdflkgjlksdfjgklfdjgklfdjglkdfj
+sglkjfglkjfdjgsdjlf
+fsd
+gjkdsfjglsdfjg
+af
+kglsdljg
+sdfgk
+dfsjg
+sfdjg
+fsdgjk
+fdsljg
+lskdjg
+lksfdjgljklfdjgdfkljslkdsglkdjglkfdjglksjglkjlkgsjlkfjglksjdlgkjsdlkfjgklsfdjglk
+jdsflkjglkfsdjgkljlksfdjglkdjfslkjgsflkdjgkdjfglkjdfklglkdfsjlkgfdjglkdfsjglkdjf
+glkg
+you're cool
+~
+~
+"info.txt" 16L, 586C written                                  
+jplasko@unix3:~/CPE464/lab7 $ ./rcopy info.txt take.txt 1 400 0 unix3.csc.calpol
+y.edu 55517
+Send Err-INIT ErrRate: 0.00 Drop: Y Flip: Y Rand: Y Debug: Y
+SEND MSG#   1 SEQ#   0 LEN   19 FLAGS 7  -FNAME    
+RECV          SEQ#   0 LEN    7 FLAGS 8  -FNAME response
+RECV          SEQ#   1 LEN  407 FLAGS 3  -Data #:    1
+SEND MSG#   2 SEQ#   1 LEN   11 FLAGS 5  -RR #:      1
+RECV          SEQ#   2 LEN  193 FLAGS 3  -Data #:    2
+SEND MSG#   3 SEQ#   2 LEN   11 FLAGS 5  -RR #:      2
+RECV          SEQ#   3 LEN    8 FLAGS 10  -User defined 
+SEND MSG#   4 SEQ#   3 LEN    8 FLAGS 11  -User defined 
+======== SeqNo Report ========
+  Msgs (Total)       :     4
+  Msgs (Unique SeqNo):     4
+==============================
+jplasko@unix3:~/CPE464/lab7 $ cat take.txt
+sfdghdjfghfhjkhjgfjklkhjgfjghcjgjdghjgdhjpenis worldgdjfgjfg
+jfgxjndfxjxgfhjgchjgjxfvcknnsldfjldskfjkllkdmklgkljfgjdglkjfdlkjgdljgfdlkjgfdjgl;kdsjgfdslkjg;ldksfjg;kldfjgkl;fdsjg;lkdfsjgl;ksdfjglkdfsjgdf
+dfsjgldfksjgdlkfjglkdfjgsdfkgjlkfds
+fgjkldsfjgkdflgjlkdfgjdlfkjglkdfjgldkfjgjksdflgkjsdflkgjlksdfjgklfdjgklfdjglkdfjsglkjfglkjfdjgsdjlf
+fsd
+gjkdsfjglsdfjg
+af
+kglsdljg
+sdfgk
+dfsjg
+sfdjg
+fsdgjk
+fdsljg
+lskdjg
+lksfdjgljklfdjgdfkljslkdsglkdjglkfdjglksjglkjlkgsjlkfjglksjdlgkjsdlkfjgklsfdjglkjdsflkjglkfsdjgkljlksfdjglkdjfslkjgsflkdjgkdjfglkjdfklglkdfsjlkgfdjglkdfsjglkdjfglkg
+you're cool
+jplasko@unix3:~/CPE464/lab7 $ ./rcopy info.txt take.txt 1 400 1 unix3.csc.calpoly.edu 55517
+Error rate needs to be between 0 and less then 1 and is: 1
+jplasko@unix3:~/CPE464/lab7 $ ./rcopy info.txt take.txt 1 400 .999 unix3.csc.calpoly.edu 55517
+Send Err-INIT ErrRate: 1.00 Drop: Y Flip: Y Rand: Y Debug: Y
+SEND MSG#   1 SEQ#   0 LEN   19 FLAGS 7  -FNAME     - FLIPPED BITS 
+Select Timed Out - pid: 6206 sec: 1 usec: 0
+SEND MSG#   2 SEQ#   1 LEN   19 FLAGS 7  -FNAME     - FLIPPED BITS 
+Select Timed Out - pid: 6206 sec: 1 usec: 0
+SEND MSG#   3 SEQ#   2 LEN   19 FLAGS 7  -FNAME     - FLIPPED BITS 
+Select Timed Out - pid: 6206 sec: 1 usec: 0
+SEND MSG#   4 SEQ#   3 LEN   19 FLAGS 7  -FNAME     - DROPPED 
+Select Timed Out - pid: 6206 sec: 1 usec: 0
+SEND MSG#   5 SEQ#   4 LEN   19 FLAGS 7  -FNAME     - DROPPED 
+Select Timed Out - pid: 6206 sec: 1 usec: 0
+SEND MSG#   6 SEQ#   5 LEN   19 FLAGS 7  -FNAME     - FLIPPED BITS 
+Select Timed Out - pid: 6206 sec: 1 usec: 0
+SEND MSG#   7 SEQ#   6 LEN   19 FLAGS 7  -FNAME     - FLIPPED BITS 
+Select Timed Out - pid: 6206 sec: 1 usec: 0
+SEND MSG#   8 SEQ#   7 LEN   19 FLAGS 7  -FNAME     - DROPPED 
+Select Timed Out - pid: 6206 sec: 1 usec: 0
+SEND MSG#   9 SEQ#   8 LEN   19 FLAGS 7  -FNAME     - FLIPPED BITS 
+Select Timed Out - pid: 6206 sec: 1 usec: 0
+SEND MSG#  10 SEQ#   9 LEN   19 FLAGS 7  -FNAME     - FLIPPED BITS 
+Select Timed Out - pid: 6206 sec: 1 usec: 0
+SEND MSG#  11 SEQ#  10 LEN   19 FLAGS 7  -FNAME     - DROPPED 
+======== SeqNo Report ========
+  Msgs (Total)       :    11
+  Msgs (Unique SeqNo):    11
+==============================
+jplasko@unix3:~/CPE464/lab7 $ ./rcopy info.txt take.txt 1 400 .999 unix3.csc.calpoly.edu 55517
+Send Err-INIT ErrRate: 1.00 Drop: Y Flip: Y Rand: Y Debug: Y
+SEND MSG#   1 SEQ#   0 LEN   19 FLAGS 7  -FNAME     - FLIPPED BITS 
+Select Timed Out - pid: 6244 sec: 1 usec: 0
+SEND MSG#   2 SEQ#   1 LEN   19 FLAGS 7  -FNAME     - DROPPED 
+Select Timed Out - pid: 6244 sec: 1 usec: 0
+SEND MSG#   3 SEQ#   2 LEN   19 FLAGS 7  -FNAME     - FLIPPED BITS 
+Select Timed Out - pid: 6244 sec: 1 usec: 0
+SEND MSG#   4 SEQ#   3 LEN   19 FLAGS 7  -FNAME     - DROPPED 
+Select Timed Out - pid: 6244 sec: 1 usec: 0
+SEND MSG#   5 SEQ#   4 LEN   19 FLAGS 7  -FNAME     - DROPPED 
+Select Timed Out - pid: 6244 sec: 1 usec: 0
+SEND MSG#   6 SEQ#   5 LEN   19 FLAGS 7  -FNAME     - FLIPPED BITS 
+Select Timed Out - pid: 6244 sec: 1 usec: 0
+SEND MSG#   7 SEQ#   6 LEN   19 FLAGS 7  -FNAME     - FLIPPED BITS 
+Select Timed Out - pid: 6244 sec: 1 usec: 0
+SEND MSG#   8 SEQ#   7 LEN   19 FLAGS 7  -FNAME     - FLIPPED BITS 
+Select Timed Out - pid: 6244 sec: 1 usec: 0
+SEND MSG#   9 SEQ#   8 LEN   19 FLAGS 7  -FNAME     - DROPPED 
+Select Timed Out - pid: 6244 sec: 1 usec: 0
+SEND MSG#  10 SEQ#   9 LEN   19 FLAGS 7  -FNAME     - DROPPED 
+Select Timed Out - pid: 6244 sec: 1 usec: 0
+SEND MSG#  11 SEQ#  10 LEN   19 FLAGS 7  -FNAME     - FLIPPED BITS 
+======== SeqNo Report ========
+  Msgs (Total)       :    11
+  Msgs (Unique SeqNo):    11
+==============================
+jplasko@unix3:~/CPE464/lab7 $ ./rcopy info.txt take.txt 1 400 .5 unix3.csc.calpoly.edu 55517
+Send Err-INIT ErrRate: 0.50 Drop: Y Flip: Y Rand: Y Debug: Y
+SEND MSG#   1 SEQ#   0 LEN   19 FLAGS 7  -FNAME     - DROPPED 
+Select Timed Out - pid: 6287 sec: 1 usec: 0
+SEND MSG#   2 SEQ#   1 LEN   19 FLAGS 7  -FNAME     - DROPPED 
+Select Timed Out - pid: 6287 sec: 1 usec: 0
+SEND MSG#   3 SEQ#   2 LEN   19 FLAGS 7  -FNAME     - DROPPED 
+Select Timed Out - pid: 6287 sec: 1 usec: 0
+SEND MSG#   4 SEQ#   3 LEN   19 FLAGS 7  -FNAME     - FLIPPED BITS 
+Select Timed Out - pid: 6287 sec: 1 usec: 0
+SEND MSG#   5 SEQ#   4 LEN   19 FLAGS 7  -FNAME    
+Select Timed Out - pid: 6287 sec: 1 usec: 0
+SEND MSG#   6 SEQ#   5 LEN   19 FLAGS 7  -FNAME     - FLIPPED BITS 
+Select Timed Out - pid: 6287 sec: 1 usec: 0
+SEND MSG#   7 SEQ#   6 LEN   19 FLAGS 7  -FNAME     - DROPPED 
+Select Timed Out - pid: 6287 sec: 1 usec: 0
+SEND MSG#   8 SEQ#   7 LEN   19 FLAGS 7  -FNAME     - FLIPPED BITS 
+Select Timed Out - pid: 6287 sec: 1 usec: 0
+SEND MSG#   9 SEQ#   8 LEN   19 FLAGS 7  -FNAME     - FLIPPED BITS 
+Select Timed Out - pid: 6287 sec: 1 usec: 0
+SEND MSG#  10 SEQ#   9 LEN   19 FLAGS 7  -FNAME     - DROPPED 
+Select Timed Out - pid: 6287 sec: 1 usec: 0
+SEND MSG#  11 SEQ#  10 LEN   19 FLAGS 7  -FNAME     - FLIPPED BITS 
+======== SeqNo Report ========
+  Msgs (Total)       :    11
+  Msgs (Unique SeqNo):    11
+==============================
+jplasko@unix3:~/CPE464/lab7 $ ./rcopy info.txt take.txt 1 400 .5 unix3.csc.calpoly.edu 55517
+Send Err-INIT ErrRate: 0.50 Drop: Y Flip: Y Rand: Y Debug: Y
+SEND MSG#   1 SEQ#   0 LEN   19 FLAGS 7  -FNAME     - DROPPED 
+Select Timed Out - pid: 6306 sec: 1 usec: 0
+SEND MSG#   2 SEQ#   1 LEN   19 FLAGS 7  -FNAME    
+Select Timed Out - pid: 6306 sec: 1 usec: 0
+SEND MSG#   3 SEQ#   2 LEN   19 FLAGS 7  -FNAME     - FLIPPED BITS 
+Select Timed Out - pid: 6306 sec: 1 usec: 0
+SEND MSG#   4 SEQ#   3 LEN   19 FLAGS 7  -FNAME    
+Select Timed Out - pid: 6306 sec: 1 usec: 0
+SEND MSG#   5 SEQ#   4 LEN   19 FLAGS 7  -FNAME    
+Select Timed Out - pid: 6306 sec: 1 usec: 0
+SEND MSG#   6 SEQ#   5 LEN   19 FLAGS 7  -FNAME    
+Select Timed Out - pid: 6306 sec: 1 usec: 0
+SEND MSG#   7 SEQ#   6 LEN   19 FLAGS 7  -FNAME    
+Select Timed Out - pid: 6306 sec: 1 usec: 0
+SEND MSG#   8 SEQ#   7 LEN   19 FLAGS 7  -FNAME     - FLIPPED BITS 
+Select Timed Out - pid: 6306 sec: 1 usec: 0
+SEND MSG#   9 SEQ#   8 LEN   19 FLAGS 7  -FNAME     - DROPPED 
+Select Timed Out - pid: 6306 sec: 1 usec: 0
+SEND MSG#  10 SEQ#   9 LEN   19 FLAGS 7  -FNAME     - DROPPED 
+Select Timed Out - pid: 6306 sec: 1 usec: 0
+SEND MSG#  11 SEQ#  10 LEN   19 FLAGS 7  -FNAME    
+======== SeqNo Report ========
+  Msgs (Total)       :    11
+  Msgs (Unique SeqNo):    11
+==============================
+jplasko@unix3:~/CPE464/lab7 $ ./rcopy info.txt take.txt 1 400 .5 unix3.csc.calpo
+ly.edu 52457
+Send Err-INIT ErrRate: 0.50 Drop: Y Flip: Y Rand: Y Debug: Y
+SEND MSG#   1 SEQ#   0 LEN   19 FLAGS 7  -FNAME     - DROPPED 
+Select Timed Out - pid: 6329 sec: 1 usec: 0
+SEND MSG#   2 SEQ#   1 LEN   19 FLAGS 7  -FNAME     - DROPPED 
+Select Timed Out - pid: 6329 sec: 1 usec: 0
+SEND MSG#   3 SEQ#   2 LEN   19 FLAGS 7  -FNAME    
+RECV          SEQ#   0 LEN    7 FLAGS 8  -FNAME response
+RECV          SEQ#   1 LEN  407 FLAGS 3  -Data #:    1
+SEND MSG#   4 SEQ#   3 LEN   11 FLAGS 5  -RR #:      1
+RECV          SEQ#   2 LEN  193 FLAGS 3  -Data #:    2
+SEND MSG#   5 SEQ#   4 LEN   11 FLAGS 5  -RR #:      2 - DROPPED 
+RECV          SEQ#   2 LEN  193 FLAGS 3  -Data #:    2
+SEND MSG#   6 SEQ#   5 LEN   11 FLAGS 5  -RR #:      2
+RECV          SEQ#   3 LEN    8 FLAGS 10  -User defined 
+SEND MSG#   7 SEQ#   6 LEN    8 FLAGS 11  -User defined  - DROPPED 
+======== SeqNo Report ========
+  Msgs (Total)       :     7
+  Msgs (Unique SeqNo):     7
+==============================
+jplasko@unix3:~/CPE464/lab7 $ ^C
+jplasko@unix3:~/CPE464/lab7 $ vim info.txt
+sfdghdjfghfhjkhjgfjklkhjgfjghcjgjdghjgdhjpenis worldgdjfgjfg
+jfgxjndfxjxgfhjgchjgjxfvcknnsldfjldskfjkllkdmklgkljfgjdglkjfdlkjgdljgfdlkjgfdjgl;kdsjgfdslkjg;ldksfjg;kldfjgkl;fdsjg;lkdfsjgl;ksdfjglkdfsjgdf
+dfsjgldfksjgdlkfjglkdfjgsdfkgjlkfds
+fgjkldsfjgkdflgjlkdfgjdlfkjglkdfjgldkfjgjksdflgkjsdflkgjlksdfjgklfdjgklfdjglkdfjsglkjfglkjfdjgsdjlf
+fsd
+gjkdsfjglsdfjg
+af
+kglsdljg
+sdfgk
+dfsjg
+sfdjg
+fsdgjk
+fdsljg
+lskdjg
+lksfdjgljklfdjgdfkljslkdsglkdjglkfdjglksjglkjlkgsjlkfjglksjdlgkjsdlkfjgklsfdjglkjdsflkjglkfsdjgkljlksfdjglkdjfslkjgsflkdjgkdjfglkjdfklglkdfsjlkgfdjglkdfsjglkdjfglkg
+you're cool
+~
+~
+"info.txt" 16L, 586C                                          16,1          All
+jplasko@unix3:~/CPE464/lab7 $ ./rcopy info.txt take.txt 1 400 0 unix3.csc.calpol
+y.edu 45764
+Send Err-INIT ErrRate: 0.00 Drop: Y Flip: Y Rand: Y Debug: Y
+SEND MSG#   1 SEQ#   0 LEN   19 FLAGS 7  -FNAME    
+RECV          SEQ#   0 LEN    7 FLAGS 8  -FNAME response
+RECV          SEQ#   1 LEN   19 FLAGS 3  -Data #:    1
+SEND MSG#   2 SEQ#   1 LEN   11 FLAGS 5  -RR #:      1
+RECV          SEQ#   2 LEN    8 FLAGS 10  -User defined 
+SEND MSG#   3 SEQ#   2 LEN    8 FLAGS 11  -User defined 
+======== SeqNo Report ========
+  Msgs (Total)       :     3
+  Msgs (Unique SeqNo):     3
+==============================
+jplasko@unix3:~/CPE464/lab7 $ make
+gcc -c -g -Wall srej.c -o srej.o 
+gcc -g -Wall -o rcopy rcopy.c networks.o gethostbyname.o srej.o libcpe464.2.20.a -lstdc++ -ldl
+rcopy.c: In function âeck_argsârcopy.c:216:3: warning: format ââxpects argument of type âtâbut argument
+ 2 has type âze_tâ-Wformat=]
+   printf("FROM filename to long needs to be less than 100 and is: %d\n", strlen(argv[1]));
+   ^
+rcopy.c:222:3: warning: format ââxpects argument of type âtâbut argument
+ 2 has type âze_tâ-Wformat=]
+   printf("TO filename to long needs to be less than 100 and is: %d\n", strlen(argv[1]));
+   ^
+gcc -g -Wall -o server server.c networks.o gethostbyname.o srej.o libcpe464.2.20.a -lstdc++ -ldl
+jplasko@unix3:~/CPE464/lab7 $ ./rcopy info.txt take.txt 1 400 0 unix3.csc.calpol
+y.edu 41050
+Send Err-INIT ErrRate: 0.00 Drop: Y Flip: Y Rand: Y Debug: Y
+SEND MSG#   1 SEQ#   0 LEN   19 FLAGS 7  -FNAME    
+RECV          SEQ#   0 LEN    7 FLAGS 8  -FNAME response
+RECV          SEQ#   1 LEN   19 FLAGS 3  -Data #:    1
+SEND MSG#   2 SEQ#   1 LEN   11 FLAGS 5  -RR #:      1
+RECV          SEQ#   2 LEN    8 FLAGS 10  -User defined 
+SEND MSG#   3 SEQ#   2 LEN    8 FLAGS 11  -User defined 
+======== SeqNo Report ========
+  Msgs (Total)       :     3
+  Msgs (Unique SeqNo):     3
+==============================
+jplasko@unix3:~/CPE464/lab7 $ vim info.txt
+penis world
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+"info.txt" 1L, 12C written                                    
+jplasko@unix3:~/CPE464/lab7 $ ./rcopy info.txt take.txt 1 400 0 unix3.csc.calpoly.edu 41050
+Send Err-INIT ErrRate: 0.00 Drop: Y Flip: Y Rand: Y Debug: Y
+SEND MSG#   1 SEQ#   0 LEN   19 FLAGS 7  -FNAME    
+RECV          SEQ#   0 LEN    7 FLAGS 8  -FNAME response
+RECV          SEQ#   1 LEN   19 FLAGS 3  -Data #:    1
+SEND MSG#   2 SEQ#   1 LEN   11 FLAGS 5  -RR #:      1
+RECV          SEQ#   2 LEN    8 FLAGS 10  -User defined 
+SEND MSG#   3 SEQ#   2 LEN    8 FLAGS 11  -User defined 
+======== SeqNo Report ========
+  Msgs (Total)       :     3
+  Msgs (Unique SeqNo):     3
+==============================
+jplasko@unix3:~/CPE464/lab7 $ cat take.txt
+penis world
+jplasko@unix3:~/CPE464/lab7 $ make
+gcc -c -g -Wall srej.c -o srej.o 
+gcc -g -Wall -o rcopy rcopy.c networks.o gethostbyname.o srej.o libcpe464.2.20.a -lstdc++ -ldl
+rcopy.c: In function âeck_argsârcopy.c:216:3: warning: format ââxpects argument of type âtâbut argument
+ 2 has type âze_tâ-Wformat=]
+   printf("FROM filename to long needs to be less than 100 and is: %d\n", strlen(argv[1]));
+   ^
+rcopy.c:222:3: warning: format ââxpects argument of type âtâbut argument
+ 2 has type âze_tâ-Wformat=]
+   printf("TO filename to long needs to be less than 100 and is: %d\n", strlen(argv[1]));
+   ^
+gcc -g -Wall -o server server.c networks.o gethostbyname.o srej.o libcpe464.2.20.a -lstdc++ -ldl
+jplasko@unix3:~/CPE464/lab7 $ ./rcopy info.txt take.txt 1 400 0 unix3.csc.calpol
+y.edu 56016
+Send Err-INIT ErrRate: 0.00 Drop: Y Flip: Y Rand: Y Debug: Y
+SEND MSG#   1 SEQ#   0 LEN   19 FLAGS 7  -FNAME    
+RECV          SEQ#   0 LEN    7 FLAGS 9  -User defined 
+======== SeqNo Report ========
+  Msgs (Total)       :     1
+  Msgs (Unique SeqNo):     1
+==============================
+jplasko@unix3:~/CPE464/lab7 $ ./rcopy info.txt take.txt 1 400 0 unix3.csc.calpoly.edu 56016
+Send Err-INIT ErrRate: 0.00 Drop: Y Flip: Y Rand: Y Debug: Y
+SEND MSG#   1 SEQ#   0 LEN   19 FLAGS 7  -FNAME    
+RECV          SEQ#   0 LEN    7 FLAGS 9  -User defined 
+======== SeqNo Report ========
+  Msgs (Total)       :     1
+  Msgs (Unique SeqNo):     1
+==============================
+jplasko@unix3:~/CPE464/lab7 $ make
+gcc -c -g -Wall srej.c -o srej.o 
+gcc -g -Wall -o rcopy rcopy.c networks.o gethostbyname.o srej.o libcpe464.2.20.a -lstdc++ -ldl
+rcopy.c: In function âeck_argsârcopy.c:216:3: warning: format ââxpects argument of type âtâbut argument
+ 2 has type âze_tâ-Wformat=]
+   printf("FROM filename to long needs to be less than 100 and is: %d\n", strlen(argv[1]));
+   ^
+rcopy.c:222:3: warning: format ââxpects argument of type âtâbut argument
+ 2 has type âze_tâ-Wformat=]
+   printf("TO filename to long needs to be less than 100 and is: %d\n", strlen(argv[1]));
+   ^
+gcc -g -Wall -o server server.c networks.o gethostbyname.o srej.o libcpe464.2.20.a -lstdc++ -ldl
+jplasko@unix3:~/CPE464/lab7 $ ./rcopy info.txt take.txt 1 400 0 unix3.csc.calpol
+y.edu 33232
+Send Err-INIT ErrRate: 0.00 Drop: Y Flip: Y Rand: Y Debug: Y
+SEND MSG#   1 SEQ#   0 LEN   19 FLAGS 7  -FNAME    
+RECV          SEQ#   0 LEN    7 FLAGS 8  -FNAME response
+RECV          SEQ#   1 LEN   19 FLAGS 3  -Data #:    1
+SEND MSG#   2 SEQ#   1 LEN   11 FLAGS 5  -RR #:      1
+RECV          SEQ#   2 LEN    8 FLAGS 10  -User defined 
+SEND MSG#   3 SEQ#   2 LEN    8 FLAGS 11  -User defined 
+======== SeqNo Report ========
+  Msgs (Total)       :     3
+  Msgs (Unique SeqNo):     3
+==============================
+jplasko@unix3:~/CPE464/lab7 $ make
+make: Nothing to be done for `all'.
+jplasko@unix3:~/CPE464/lab7 $ make
+gcc -c -g -Wall srej.c -o srej.o 
+gcc -g -Wall -o rcopy rcopy.c networks.o gethostbyname.o srej.o libcpe464.2.20.a -lstdc++ -ldl
+rcopy.c: In function âeck_argsârcopy.c:216:3: warning: format ââxpects argument of type âtâbut argument
+ 2 has type âze_tâ-Wformat=]
+   printf("FROM filename to long needs to be less than 100 and is: %d\n", strlen(argv[1]));
+   ^
+rcopy.c:222:3: warning: format ââxpects argument of type âtâbut argument
+ 2 has type âze_tâ-Wformat=]
+   printf("TO filename to long needs to be less than 100 and is: %d\n", strlen(argv[1]));
+   ^
+gcc -g -Wall -o server server.c networks.o gethostbyname.o srej.o libcpe464.2.20.a -lstdc++ -ldl
+jplasko@unix3:~/CPE464/lab7 $ ./rcopy info.txt take.txt 1 400 0 unix3.csc.calpol
+y.edu 42041
+Send Err-INIT ErrRate: 0.00 Drop: Y Flip: Y Rand: Y Debug: Y
+SEND MSG#   1 SEQ#   0 LEN   19 FLAGS 7  -FNAME    
+RECV          SEQ#   0 LEN    7 FLAGS 8  -FNAME response
+RECV          SEQ#   1 LEN   19 FLAGS 3  -Data #:    1
+SEND MSG#   2 SEQ#   1 LEN   11 FLAGS 5  -RR #:      1
+RECV          SEQ#   2 LEN    8 FLAGS 10  -User defined 
+SEND MSG#   3 SEQ#   2 LEN    8 FLAGS 11  -User defined 
+======== SeqNo Report ========
+  Msgs (Total)       :     3
+  Msgs (Unique SeqNo):     3
+==============================
+jplasko@unix3:~/CPE464/lab7 $ make
+gcc -c -g -Wall srej.c -o srej.o 
+gcc -g -Wall -o rcopy rcopy.c networks.o gethostbyname.o srej.o libcpe464.2.20.a -lstdc++ -ldl
+rcopy.c: In function âeck_argsârcopy.c:216:3: warning: format ââxpects argument of type âtâbut argument
+ 2 has type âze_tâ-Wformat=]
+   printf("FROM filename to long needs to be less than 100 and is: %d\n", strlen(argv[1]));
+   ^
+rcopy.c:222:3: warning: format ââxpects argument of type âtâbut argument
+ 2 has type âze_tâ-Wformat=]
+   printf("TO filename to long needs to be less than 100 and is: %d\n", strlen(argv[1]));
+   ^
+gcc -g -Wall -o server server.c networks.o gethostbyname.o srej.o libcpe464.2.20.a -lstdc++ -ldl
+jplasko@unix3:~/CPE464/lab7 $ ./rcopy info.txt take.txt 1 400 0 unix3.csc.calpol
+y.edu 38809
+Send Err-INIT ErrRate: 0.00 Drop: Y Flip: Y Rand: Y Debug: Y
+SEND MSG#   1 SEQ#   0 LEN   19 FLAGS 7  -FNAME    
+RECV          SEQ#   0 LEN    7 FLAGS 9  -User defined 
+======== SeqNo Report ========
+  Msgs (Total)       :     1
+  Msgs (Unique SeqNo):     1
+==============================
+jplasko@unix3:~/CPE464/lab7 $ make
+gcc -c -g -Wall srej.c -o srej.o 
+gcc -g -Wall -o rcopy rcopy.c networks.o gethostbyname.o srej.o libcpe464.2.20.a -lstdc++ -ldl
+rcopy.c: In function âeck_argsârcopy.c:216:3: warning: format ââxpects argument of type âtâbut argument
+ 2 has type âze_tâ-Wformat=]
+   printf("FROM filename to long needs to be less than 100 and is: %d\n", strlen(argv[1]));
+   ^
+rcopy.c:222:3: warning: format ââxpects argument of type âtâbut argument
+ 2 has type âze_tâ-Wformat=]
+   printf("TO filename to long needs to be less than 100 and is: %d\n", strlen(argv[1]));
+   ^
+gcc -g -Wall -o server server.c networks.o gethostbyname.o srej.o libcpe464.2.20.a -lstdc++ -ldl
+jplasko@unix3:~/CPE464/lab7 $ make
+make: Nothing to be done for `all'.
+jplasko@unix3:~/CPE464/lab7 $ ./rcopy info.txt take.txt 1 400 0 unix3.csc.calpol
+y.edu 47480
+Send Err-INIT ErrRate: 0.00 Drop: Y Flip: Y Rand: Y Debug: Y
+SEND MSG#   1 SEQ#   0 LEN   19 FLAGS 7  -FNAME    
+RECV          SEQ#   0 LEN    7 FLAGS 8  -FNAME response
+RECV          SEQ#   1 LEN   19 FLAGS 3  -Data #:    1
+SEND MSG#   2 SEQ#   1 LEN   11 FLAGS 5  -RR #:      1
+RECV          SEQ#   2 LEN    8 FLAGS 10  -User defined 
+SEND MSG#   3 SEQ#   2 LEN    8 FLAGS 11  -User defined 
+======== SeqNo Report ========
+  Msgs (Total)       :     3
+  Msgs (Unique SeqNo):     3
+==============================
+jplasko@unix3:~/CPE464/lab7 $ make
+gcc -c -g -Wall srej.c -o srej.o 
+gcc -g -Wall -o rcopy rcopy.c networks.o gethostbyname.o srej.o libcpe464.2.20.a -lstdc++ -ldl
+rcopy.c: In function âeck_argsârcopy.c:216:3: warning: format ââxpects argument of type âtâbut argument
+ 2 has type âze_tâ-Wformat=]
+   printf("FROM filename to long needs to be less than 100 and is: %d\n", strlen(argv[1]));
+   ^
+rcopy.c:222:3: warning: format ââxpects argument of type âtâbut argument
+ 2 has type âze_tâ-Wformat=]
+   printf("TO filename to long needs to be less than 100 and is: %d\n", strlen(argv[1]));
+   ^
+gcc -g -Wall -o server server.c networks.o gethostbyname.o srej.o libcpe464.2.20.a -lstdc++ -ldl
+jplasko@unix3:~/CPE464/lab7 $ ./rcopy info.txt take.txt 1 400 0 unix3.csc.calpol
+y.edu 58363
+Send Err-INIT ErrRate: 0.00 Drop: Y Flip: Y Rand: Y Debug: Y
+SEND MSG#   1 SEQ#   0 LEN   19 FLAGS 7  -FNAME    
+RECV          SEQ#   0 LEN    7 FLAGS 9  -User defined 
+======== SeqNo Report ========
+  Msgs (Total)       :     1
+  Msgs (Unique SeqNo):     1
+==============================
+jplasko@unix3:~/CPE464/lab7 $ make
+gcc -g -Wall -o server server.c networks.o gethostbyname.o srej.o libcpe464.2.20.a -lstdc++ -ldl
+jplasko@unix3:~/CPE464/lab7 $ ./rcopy info.txt take.txt 1 400 0 unix3.csc.calpol
+y.edu 38315
+Send Err-INIT ErrRate: 0.00 Drop: Y Flip: Y Rand: Y Debug: Y
+SEND MSG#   1 SEQ#   0 LEN   19 FLAGS 7  -FNAME    
+RECV          SEQ#   0 LEN    7 FLAGS 8  -FNAME response
+RECV          SEQ#   1 LEN   19 FLAGS 3  -Data #:    1
+SEND MSG#   2 SEQ#   1 LEN   11 FLAGS 5  -RR #:      1
+RECV          SEQ#   2 LEN    8 FLAGS 10  -User defined 
+SEND MSG#   3 SEQ#   2 LEN    8 FLAGS 11  -User defined 
+======== SeqNo Report ========
+  Msgs (Total)       :     3
+  Msgs (Unique SeqNo):     3
+==============================
+jplasko@unix3:~/CPE464/lab7 $ vim info.txt
+sfdghdjfghfhjkhjgfjklkhjgfjghcjgjdghjgdhjpenis worldgdjfgjfg
+jfgxjndfxjxgfhjgchjgjxfvcknnsldfjldskfjkllkdmklgkljfgjdglkjfdlkjgdljgfdlkjgfdjgl
+;kdsjgfdslkjg;ldksfjg;kldfjgkl;fdsjg;lkdfsjgl;ksdfjglkdfsjgdf
+dfsjgldfksjgdlkfjglkdfjgsdfkgjlkfds
+fgjkldsfjgkdflgjlkdfgjdlfkjglkdfjgldkfjgjksdflgkjsdflkgjlksdfjgklfdjgklfdjglkdfj
+sglkjfglkjfdjgsdjlf
+fsd
+gjkdsfjglsdfjg
+af
+kglsdljg
+sdfgk
+dfsjg
+sfdjg
+fsdgjk
+fdsljg
+lskdjg
+lksfdjgljklfdjgdfkljslkdsglkdjglkfdjglksjglkjlkgsjlkfjglksjdlgkjsdlkfjgklsfdjglk
+jdsflkjglkfsdjgkljlksfdjglkdjfslkjgsflkdjgkdjfglkjdfklglkdfsjlkgfdjglkdfsjglkdjf
+glkg
+you're cool
+~
+~
+"info.txt" 16L, 586C written                                  
+jplasko@unix3:~/CPE464/lab7 $ ./rcopy info.txt take.txt 1 400 0 unix3.csc.calpol
+y.edu 55517
+Send Err-INIT ErrRate: 0.00 Drop: Y Flip: Y Rand: Y Debug: Y
+SEND MSG#   1 SEQ#   0 LEN   19 FLAGS 7  -FNAME    
+RECV          SEQ#   0 LEN    7 FLAGS 8  -FNAME response
+RECV          SEQ#   1 LEN  407 FLAGS 3  -Data #:    1
+SEND MSG#   2 SEQ#   1 LEN   11 FLAGS 5  -RR #:      1
+RECV          SEQ#   2 LEN  193 FLAGS 3  -Data #:    2
+SEND MSG#   3 SEQ#   2 LEN   11 FLAGS 5  -RR #:      2
+RECV          SEQ#   3 LEN    8 FLAGS 10  -User defined 
+SEND MSG#   4 SEQ#   3 LEN    8 FLAGS 11  -User defined 
+======== SeqNo Report ========
+  Msgs (Total)       :     4
+  Msgs (Unique SeqNo):     4
+==============================
+jplasko@unix3:~/CPE464/lab7 $ cat take.txt
+sfdghdjfghfhjkhjgfjklkhjgfjghcjgjdghjgdhjpenis worldgdjfgjfg
+jfgxjndfxjxgfhjgchjgjxfvcknnsldfjldskfjkllkdmklgkljfgjdglkjfdlkjgdljgfdlkjgfdjgl;kdsjgfdslkjg;ldksfjg;kldfjgkl;fdsjg;lkdfsjgl;ksdfjglkdfsjgdf
+dfsjgldfksjgdlkfjglkdfjgsdfkgjlkfds
+fgjkldsfjgkdflgjlkdfgjdlfkjglkdfjgldkfjgjksdflgkjsdflkgjlksdfjgklfdjgklfdjglkdfjsglkjfglkjfdjgsdjlf
+fsd
+gjkdsfjglsdfjg
+af
+kglsdljg
+sdfgk
+dfsjg
+sfdjg
+fsdgjk
+fdsljg
+lskdjg
+lksfdjgljklfdjgdfkljslkdsglkdjglkfdjglksjglkjlkgsjlkfjglksjdlgkjsdlkfjgklsfdjglkjdsflkjglkfsdjgkljlksfdjglkdjfslkjgsflkdjgkdjfglkjdfklglkdfsjlkgfdjglkdfsjglkdjfglkg
+you're cool
+jplasko@unix3:~/CPE464/lab7 $ ./rcopy info.txt take.txt 1 400 1 unix3.csc.calpoly.edu 55517
+Error rate needs to be between 0 and less then 1 and is: 1
+jplasko@unix3:~/CPE464/lab7 $ ./rcopy info.txt take.txt 1 400 .999 unix3.csc.calpoly.edu 55517
+Send Err-INIT ErrRate: 1.00 Drop: Y Flip: Y Rand: Y Debug: Y
+SEND MSG#   1 SEQ#   0 LEN   19 FLAGS 7  -FNAME     - FLIPPED BITS 
+Select Timed Out - pid: 6206 sec: 1 usec: 0
+SEND MSG#   2 SEQ#   1 LEN   19 FLAGS 7  -FNAME     - FLIPPED BITS 
+Select Timed Out - pid: 6206 sec: 1 usec: 0
+SEND MSG#   3 SEQ#   2 LEN   19 FLAGS 7  -FNAME     - FLIPPED BITS 
+Select Timed Out - pid: 6206 sec: 1 usec: 0
+SEND MSG#   4 SEQ#   3 LEN   19 FLAGS 7  -FNAME     - DROPPED 
+Select Timed Out - pid: 6206 sec: 1 usec: 0
+SEND MSG#   5 SEQ#   4 LEN   19 FLAGS 7  -FNAME     - DROPPED 
+Select Timed Out - pid: 6206 sec: 1 usec: 0
+SEND MSG#   6 SEQ#   5 LEN   19 FLAGS 7  -FNAME     - FLIPPED BITS 
+Select Timed Out - pid: 6206 sec: 1 usec: 0
+SEND MSG#   7 SEQ#   6 LEN   19 FLAGS 7  -FNAME     - FLIPPED BITS 
+Select Timed Out - pid: 6206 sec: 1 usec: 0
+SEND MSG#   8 SEQ#   7 LEN   19 FLAGS 7  -FNAME     - DROPPED 
+Select Timed Out - pid: 6206 sec: 1 usec: 0
+SEND MSG#   9 SEQ#   8 LEN   19 FLAGS 7  -FNAME     - FLIPPED BITS 
+Select Timed Out - pid: 6206 sec: 1 usec: 0
+SEND MSG#  10 SEQ#   9 LEN   19 FLAGS 7  -FNAME     - FLIPPED BITS 
+Select Timed Out - pid: 6206 sec: 1 usec: 0
+SEND MSG#  11 SEQ#  10 LEN   19 FLAGS 7  -FNAME     - DROPPED 
+======== SeqNo Report ========
+  Msgs (Total)       :    11
+  Msgs (Unique SeqNo):    11
+==============================
+jplasko@unix3:~/CPE464/lab7 $ ./rcopy info.txt take.txt 1 400 .999 unix3.csc.calpoly.edu 55517
+Send Err-INIT ErrRate: 1.00 Drop: Y Flip: Y Rand: Y Debug: Y
+SEND MSG#   1 SEQ#   0 LEN   19 FLAGS 7  -FNAME     - FLIPPED BITS 
+Select Timed Out - pid: 6244 sec: 1 usec: 0
+SEND MSG#   2 SEQ#   1 LEN   19 FLAGS 7  -FNAME     - DROPPED 
+Select Timed Out - pid: 6244 sec: 1 usec: 0
+SEND MSG#   3 SEQ#   2 LEN   19 FLAGS 7  -FNAME     - FLIPPED BITS 
+Select Timed Out - pid: 6244 sec: 1 usec: 0
+SEND MSG#   4 SEQ#   3 LEN   19 FLAGS 7  -FNAME     - DROPPED 
+Select Timed Out - pid: 6244 sec: 1 usec: 0
+SEND MSG#   5 SEQ#   4 LEN   19 FLAGS 7  -FNAME     - DROPPED 
+Select Timed Out - pid: 6244 sec: 1 usec: 0
+SEND MSG#   6 SEQ#   5 LEN   19 FLAGS 7  -FNAME     - FLIPPED BITS 
+Select Timed Out - pid: 6244 sec: 1 usec: 0
+SEND MSG#   7 SEQ#   6 LEN   19 FLAGS 7  -FNAME     - FLIPPED BITS 
+Select Timed Out - pid: 6244 sec: 1 usec: 0
+SEND MSG#   8 SEQ#   7 LEN   19 FLAGS 7  -FNAME     - FLIPPED BITS 
+Select Timed Out - pid: 6244 sec: 1 usec: 0
+SEND MSG#   9 SEQ#   8 LEN   19 FLAGS 7  -FNAME     - DROPPED 
+Select Timed Out - pid: 6244 sec: 1 usec: 0
+SEND MSG#  10 SEQ#   9 LEN   19 FLAGS 7  -FNAME     - DROPPED 
+Select Timed Out - pid: 6244 sec: 1 usec: 0
+SEND MSG#  11 SEQ#  10 LEN   19 FLAGS 7  -FNAME     - FLIPPED BITS 
+======== SeqNo Report ========
+  Msgs (Total)       :    11
+  Msgs (Unique SeqNo):    11
+==============================
+jplasko@unix3:~/CPE464/lab7 $ ./rcopy info.txt take.txt 1 400 .5 unix3.csc.calpoly.edu 55517
+Send Err-INIT ErrRate: 0.50 Drop: Y Flip: Y Rand: Y Debug: Y
+SEND MSG#   1 SEQ#   0 LEN   19 FLAGS 7  -FNAME     - DROPPED 
+Select Timed Out - pid: 6287 sec: 1 usec: 0
+SEND MSG#   2 SEQ#   1 LEN   19 FLAGS 7  -FNAME     - DROPPED 
+Select Timed Out - pid: 6287 sec: 1 usec: 0
+SEND MSG#   3 SEQ#   2 LEN   19 FLAGS 7  -FNAME     - DROPPED 
+Select Timed Out - pid: 6287 sec: 1 usec: 0
+SEND MSG#   4 SEQ#   3 LEN   19 FLAGS 7  -FNAME     - FLIPPED BITS 
+Select Timed Out - pid: 6287 sec: 1 usec: 0
+SEND MSG#   5 SEQ#   4 LEN   19 FLAGS 7  -FNAME    
+Select Timed Out - pid: 6287 sec: 1 usec: 0
+SEND MSG#   6 SEQ#   5 LEN   19 FLAGS 7  -FNAME     - FLIPPED BITS 
+Select Timed Out - pid: 6287 sec: 1 usec: 0
+SEND MSG#   7 SEQ#   6 LEN   19 FLAGS 7  -FNAME     - DROPPED 
+Select Timed Out - pid: 6287 sec: 1 usec: 0
+SEND MSG#   8 SEQ#   7 LEN   19 FLAGS 7  -FNAME     - FLIPPED BITS 
+Select Timed Out - pid: 6287 sec: 1 usec: 0
+SEND MSG#   9 SEQ#   8 LEN   19 FLAGS 7  -FNAME     - FLIPPED BITS 
+Select Timed Out - pid: 6287 sec: 1 usec: 0
+SEND MSG#  10 SEQ#   9 LEN   19 FLAGS 7  -FNAME     - DROPPED 
+Select Timed Out - pid: 6287 sec: 1 usec: 0
+SEND MSG#  11 SEQ#  10 LEN   19 FLAGS 7  -FNAME     - FLIPPED BITS 
+======== SeqNo Report ========
+  Msgs (Total)       :    11
+  Msgs (Unique SeqNo):    11
+==============================
+jplasko@unix3:~/CPE464/lab7 $ ./rcopy info.txt take.txt 1 400 .5 unix3.csc.calpoly.edu 55517
+Send Err-INIT ErrRate: 0.50 Drop: Y Flip: Y Rand: Y Debug: Y
+SEND MSG#   1 SEQ#   0 LEN   19 FLAGS 7  -FNAME     - DROPPED 
+Select Timed Out - pid: 6306 sec: 1 usec: 0
+SEND MSG#   2 SEQ#   1 LEN   19 FLAGS 7  -FNAME    
+Select Timed Out - pid: 6306 sec: 1 usec: 0
+SEND MSG#   3 SEQ#   2 LEN   19 FLAGS 7  -FNAME     - FLIPPED BITS 
+Select Timed Out - pid: 6306 sec: 1 usec: 0
+SEND MSG#   4 SEQ#   3 LEN   19 FLAGS 7  -FNAME    
+Select Timed Out - pid: 6306 sec: 1 usec: 0
+SEND MSG#   5 SEQ#   4 LEN   19 FLAGS 7  -FNAME    
+Select Timed Out - pid: 6306 sec: 1 usec: 0
+SEND MSG#   6 SEQ#   5 LEN   19 FLAGS 7  -FNAME    
+Select Timed Out - pid: 6306 sec: 1 usec: 0
+SEND MSG#   7 SEQ#   6 LEN   19 FLAGS 7  -FNAME    
+Select Timed Out - pid: 6306 sec: 1 usec: 0
+SEND MSG#   8 SEQ#   7 LEN   19 FLAGS 7  -FNAME     - FLIPPED BITS 
+Select Timed Out - pid: 6306 sec: 1 usec: 0
+SEND MSG#   9 SEQ#   8 LEN   19 FLAGS 7  -FNAME     - DROPPED 
+Select Timed Out - pid: 6306 sec: 1 usec: 0
+SEND MSG#  10 SEQ#   9 LEN   19 FLAGS 7  -FNAME     - DROPPED 
+Select Timed Out - pid: 6306 sec: 1 usec: 0
+SEND MSG#  11 SEQ#  10 LEN   19 FLAGS 7  -FNAME    
+======== SeqNo Report ========
+  Msgs (Total)       :    11
+  Msgs (Unique SeqNo):    11
+==============================
+jplasko@unix3:~/CPE464/lab7 $ ./rcopy info.txt take.txt 1 400 .5 unix3.csc.calpo
+ly.edu 52457
+Send Err-INIT ErrRate: 0.50 Drop: Y Flip: Y Rand: Y Debug: Y
+SEND MSG#   1 SEQ#   0 LEN   19 FLAGS 7  -FNAME     - DROPPED 
+Select Timed Out - pid: 6329 sec: 1 usec: 0
+SEND MSG#   2 SEQ#   1 LEN   19 FLAGS 7  -FNAME     - DROPPED 
+Select Timed Out - pid: 6329 sec: 1 usec: 0
+SEND MSG#   3 SEQ#   2 LEN   19 FLAGS 7  -FNAME    
+RECV          SEQ#   0 LEN    7 FLAGS 8  -FNAME response
+RECV          SEQ#   1 LEN  407 FLAGS 3  -Data #:    1
+SEND MSG#   4 SEQ#   3 LEN   11 FLAGS 5  -RR #:      1
+RECV          SEQ#   2 LEN  193 FLAGS 3  -Data #:    2
+SEND MSG#   5 SEQ#   4 LEN   11 FLAGS 5  -RR #:      2 - DROPPED 
+RECV          SEQ#   2 LEN  193 FLAGS 3  -Data #:    2
+SEND MSG#   6 SEQ#   5 LEN   11 FLAGS 5  -RR #:      2
+RECV          SEQ#   3 LEN    8 FLAGS 10  -User defined 
+SEND MSG#   7 SEQ#   6 LEN    8 FLAGS 11  -User defined  - DROPPED 
+======== SeqNo Report ========
+  Msgs (Total)       :     7
+  Msgs (Unique SeqNo):     7
+==============================
+jplasko@unix3:~/CPE464/lab7 $ ^C
+jplasko@unix3:~/CPE464/lab7 $ vim info.txt
+sfdghdjfghfhjkhjgfjklkhjgfjghcjgjdghjgdhjpenis worldgdjfgjfg
+jfgxjndfxjxgfhjgchjgjxfvcknnsldfjldskfjkllkdmklgkljfgjdglkjfdlkjgdljgfdlkjgfdjgl;kdsjgfdslkjg;ldksfjg;kldfjgkl;fdsjg;lkdfsjgl;ksdfjglkdfsjgdf
+dfsjgldfksjgdlkfjglkdfjgsdfkgjlkfds
+fgjkldsfjgkdflgjlkdfgjdlfkjglkdfjgldkfjgjksdflgkjsdflkgjlksdfjgklfdjgklfdjglkdfjsglkjfglkjfdjgsdjlf
+fsd
+gjkdsfjglsdfjg
+af
+kglsdljg
+sdfgk
+dfsjg
+sfdjg
+fsdgjk
+fdsljg
+lskdjg
+lksfdjgljklfdjgdfkljslkdsglkdjglkfdjglksjglkjlkgsjlkfjglksjdlgkjsdlkfjgklsfdjglkjdsflkjglkfsdjgkljlksfdjglkdjfslkjgsflkdjgkdjfglkjdfklglkdfsjlkgfdjglkdfsjglkdjfglkg
+you're cool
+~
+~
+"info.txt" 16L, 586C                                          16,1          All
+jplasko@unix3:~/CPE464/lab7 $ ./rcopy info.txt take.txt 1 400 0 unix3.csc.calpol
+y.edu 45764
+Send Err-INIT ErrRate: 0.00 Drop: Y Flip: Y Rand: Y Debug: Y
+SEND MSG#   1 SEQ#   0 LEN   19 FLAGS 7  -FNAME    
+RECV          SEQ#   0 LEN    7 FLAGS 8  -FNAME response
+RECV          SEQ#   1 LEN   19 FLAGS 3  -Data #:    1
+SEND MSG#   2 SEQ#   1 LEN   11 FLAGS 5  -RR #:      1
+RECV          SEQ#   2 LEN    8 FLAGS 10  -User defined 
+SEND MSG#   3 SEQ#   2 LEN    8 FLAGS 11  -User defined 
+======== SeqNo Report ========
+  Msgs (Total)       :     3
+  Msgs (Unique SeqNo):     3
+==============================
+jplasko@unix3:~/CPE464/lab7 $ make
+gcc -c -g -Wall srej.c -o srej.o 
+gcc -g -Wall -o rcopy rcopy.c networks.o gethostbyname.o srej.o libcpe464.2.20.a -lstdc++ -ldl
+rcopy.c: In function âeck_argsârcopy.c:216:3: warning: format ââxpects argument of type âtâbut argument
+ 2 has type âze_tâ-Wformat=]
+   printf("FROM filename to long needs to be less than 100 and is: %d\n", strlen(argv[1]));
+   ^
+rcopy.c:222:3: warning: format ââxpects argument of type âtâbut argument
+ 2 has type âze_tâ-Wformat=]
+   printf("TO filename to long needs to be less than 100 and is: %d\n", strlen(argv[1]));
+   ^
+gcc -g -Wall -o server server.c networks.o gethostbyname.o srej.o libcpe464.2.20.a -lstdc++ -ldl
+jplasko@unix3:~/CPE464/lab7 $ ./rcopy info.txt take.txt 1 400 0 unix3.csc.calpol
+y.edu 41050
+Send Err-INIT ErrRate: 0.00 Drop: Y Flip: Y Rand: Y Debug: Y
+SEND MSG#   1 SEQ#   0 LEN   19 FLAGS 7  -FNAME    
+RECV          SEQ#   0 LEN    7 FLAGS 8  -FNAME response
+RECV          SEQ#   1 LEN   19 FLAGS 3  -Data #:    1
+SEND MSG#   2 SEQ#   1 LEN   11 FLAGS 5  -RR #:      1
+RECV          SEQ#   2 LEN    8 FLAGS 10  -User defined 
+SEND MSG#   3 SEQ#   2 LEN    8 FLAGS 11  -User defined 
+======== SeqNo Report ========
+  Msgs (Total)       :     3
+  Msgs (Unique SeqNo):     3
+==============================
+jplasko@unix3:~/CPE464/lab7 $ vim info.txt
+penis world
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+"info.txt" 1L, 12C written                                    
+jplasko@unix3:~/CPE464/lab7 $ ./rcopy info.txt take.txt 1 400 0 unix3.csc.calpoly.edu 41050
+Send Err-INIT ErrRate: 0.00 Drop: Y Flip: Y Rand: Y Debug: Y
+SEND MSG#   1 SEQ#   0 LEN   19 FLAGS 7  -FNAME    
+RECV          SEQ#   0 LEN    7 FLAGS 8  -FNAME response
+RECV          SEQ#   1 LEN   19 FLAGS 3  -Data #:    1
+SEND MSG#   2 SEQ#   1 LEN   11 FLAGS 5  -RR #:      1
+RECV          SEQ#   2 LEN    8 FLAGS 10  -User defined 
+SEND MSG#   3 SEQ#   2 LEN    8 FLAGS 11  -User defined 
+======== SeqNo Report ========
+  Msgs (Total)       :     3
+  Msgs (Unique SeqNo):     3
+==============================
+jplasko@unix3:~/CPE464/lab7 $ cat take.txt
+penis world
+jplasko@unix3:~/CPE464/lab7 $ make
+gcc -c -g -Wall srej.c -o srej.o 
+gcc -g -Wall -o rcopy rcopy.c networks.o gethostbyname.o srej.o libcpe464.2.20.a -lstdc++ -ldl
+rcopy.c: In function âeck_argsârcopy.c:216:3: warning: format ââxpects argument of type âtâbut argument
+ 2 has type âze_tâ-Wformat=]
+   printf("FROM filename to long needs to be less than 100 and is: %d\n", strlen(argv[1]));
+   ^
+rcopy.c:222:3: warning: format ââxpects argument of type âtâbut argument
+ 2 has type âze_tâ-Wformat=]
+   printf("TO filename to long needs to be less than 100 and is: %d\n", strlen(argv[1]));
+   ^
+gcc -g -Wall -o server server.c networks.o gethostbyname.o srej.o libcpe464.2.20.a -lstdc++ -ldl
+jplasko@unix3:~/CPE464/lab7 $ ./rcopy info.txt take.txt 1 400 0 unix3.csc.calpol
+y.edu 56016
+Send Err-INIT ErrRate: 0.00 Drop: Y Flip: Y Rand: Y Debug: Y
+SEND MSG#   1 SEQ#   0 LEN   19 FLAGS 7  -FNAME    
+RECV          SEQ#   0 LEN    7 FLAGS 9  -User defined 
+======== SeqNo Report ========
+  Msgs (Total)       :     1
+  Msgs (Unique SeqNo):     1
+==============================
+jplasko@unix3:~/CPE464/lab7 $ ./rcopy info.txt take.txt 1 400 0 unix3.csc.calpoly.edu 56016
+Send Err-INIT ErrRate: 0.00 Drop: Y Flip: Y Rand: Y Debug: Y
+SEND MSG#   1 SEQ#   0 LEN   19 FLAGS 7  -FNAME    
+RECV          SEQ#   0 LEN    7 FLAGS 9  -User defined 
+======== SeqNo Report ========
+  Msgs (Total)       :     1
+  Msgs (Unique SeqNo):     1
+==============================
+jplasko@unix3:~/CPE464/lab7 $ make
+gcc -c -g -Wall srej.c -o srej.o 
+gcc -g -Wall -o rcopy rcopy.c networks.o gethostbyname.o srej.o libcpe464.2.20.a -lstdc++ -ldl
+rcopy.c: In function âeck_argsârcopy.c:216:3: warning: format ââxpects argument of type âtâbut argument
+ 2 has type âze_tâ-Wformat=]
+   printf("FROM filename to long needs to be less than 100 and is: %d\n", strlen(argv[1]));
+   ^
+rcopy.c:222:3: warning: format ââxpects argument of type âtâbut argument
+ 2 has type âze_tâ-Wformat=]
+   printf("TO filename to long needs to be less than 100 and is: %d\n", strlen(argv[1]));
+   ^
+gcc -g -Wall -o server server.c networks.o gethostbyname.o srej.o libcpe464.2.20.a -lstdc++ -ldl
+jplasko@unix3:~/CPE464/lab7 $ ./rcopy info.txt take.txt 1 400 0 unix3.csc.calpol
+y.edu 33232
+Send Err-INIT ErrRate: 0.00 Drop: Y Flip: Y Rand: Y Debug: Y
+SEND MSG#   1 SEQ#   0 LEN   19 FLAGS 7  -FNAME    
+RECV          SEQ#   0 LEN    7 FLAGS 8  -FNAME response
+RECV          SEQ#   1 LEN   19 FLAGS 3  -Data #:    1
+SEND MSG#   2 SEQ#   1 LEN   11 FLAGS 5  -RR #:      1
+RECV          SEQ#   2 LEN    8 FLAGS 10  -User defined 
+SEND MSG#   3 SEQ#   2 LEN    8 FLAGS 11  -User defined 
+======== SeqNo Report ========
+  Msgs (Total)       :     3
+  Msgs (Unique SeqNo):     3
+==============================
+jplasko@unix3:~/CPE464/lab7 $ make
+make: Nothing to be done for `all'.
+jplasko@unix3:~/CPE464/lab7 $ make
+gcc -c -g -Wall srej.c -o srej.o 
+gcc -g -Wall -o rcopy rcopy.c networks.o gethostbyname.o srej.o libcpe464.2.20.a -lstdc++ -ldl
+rcopy.c: In function âeck_argsârcopy.c:216:3: warning: format ââxpects argument of type âtâbut argument
+ 2 has type âze_tâ-Wformat=]
+   printf("FROM filename to long needs to be less than 100 and is: %d\n", strlen(argv[1]));
+   ^
+rcopy.c:222:3: warning: format ââxpects argument of type âtâbut argument
+ 2 has type âze_tâ-Wformat=]
+   printf("TO filename to long needs to be less than 100 and is: %d\n", strlen(argv[1]));
+   ^
+gcc -g -Wall -o server server.c networks.o gethostbyname.o srej.o libcpe464.2.20.a -lstdc++ -ldl
+jplasko@unix3:~/CPE464/lab7 $ ./rcopy info.txt take.txt 1 400 0 unix3.csc.calpol
+y.edu 42041
+Send Err-INIT ErrRate: 0.00 Drop: Y Flip: Y Rand: Y Debug: Y
+SEND MSG#   1 SEQ#   0 LEN   19 FLAGS 7  -FNAME    
+RECV          SEQ#   0 LEN    7 FLAGS 8  -FNAME response
+RECV          SEQ#   1 LEN   19 FLAGS 3  -Data #:    1
+SEND MSG#   2 SEQ#   1 LEN   11 FLAGS 5  -RR #:      1
+RECV          SEQ#   2 LEN    8 FLAGS 10  -User defined 
+SEND MSG#   3 SEQ#   2 LEN    8 FLAGS 11  -User defined 
+======== SeqNo Report ========
+  Msgs (Total)       :     3
+  Msgs (Unique SeqNo):     3
+==============================
+jplasko@unix3:~/CPE464/lab7 $ make
+gcc -c -g -Wall srej.c -o srej.o 
+gcc -g -Wall -o rcopy rcopy.c networks.o gethostbyname.o srej.o libcpe464.2.20.a -lstdc++ -ldl
+rcopy.c: In function âeck_argsârcopy.c:216:3: warning: format ââxpects argument of type âtâbut argument
+ 2 has type âze_tâ-Wformat=]
+   printf("FROM filename to long needs to be less than 100 and is: %d\n", strlen(argv[1]));
+   ^
+rcopy.c:222:3: warning: format ââxpects argument of type âtâbut argument
+ 2 has type âze_tâ-Wformat=]
+   printf("TO filename to long needs to be less than 100 and is: %d\n", strlen(argv[1]));
+   ^
+gcc -g -Wall -o server server.c networks.o gethostbyname.o srej.o libcpe464.2.20.a -lstdc++ -ldl
+jplasko@unix3:~/CPE464/lab7 $ ./rcopy info.txt take.txt 1 400 0 unix3.csc.calpol
+y.edu 38809
+Send Err-INIT ErrRate: 0.00 Drop: Y Flip: Y Rand: Y Debug: Y
+SEND MSG#   1 SEQ#   0 LEN   19 FLAGS 7  -FNAME    
+RECV          SEQ#   0 LEN    7 FLAGS 9  -User defined 
+======== SeqNo Report ========
+  Msgs (Total)       :     1
+  Msgs (Unique SeqNo):     1
+==============================
+jplasko@unix3:~/CPE464/lab7 $ make
+gcc -c -g -Wall srej.c -o srej.o 
+gcc -g -Wall -o rcopy rcopy.c networks.o gethostbyname.o srej.o libcpe464.2.20.a -lstdc++ -ldl
+rcopy.c: In function âeck_argsârcopy.c:216:3: warning: format ââxpects argument of type âtâbut argument
+ 2 has type âze_tâ-Wformat=]
+   printf("FROM filename to long needs to be less than 100 and is: %d\n", strlen(argv[1]));
+   ^
+rcopy.c:222:3: warning: format ââxpects argument of type âtâbut argument
+ 2 has type âze_tâ-Wformat=]
+   printf("TO filename to long needs to be less than 100 and is: %d\n", strlen(argv[1]));
+   ^
+gcc -g -Wall -o server server.c networks.o gethostbyname.o srej.o libcpe464.2.20.a -lstdc++ -ldl
+jplasko@unix3:~/CPE464/lab7 $ make
+make: Nothing to be done for `all'.
+jplasko@unix3:~/CPE464/lab7 $ ./rcopy info.txt take.txt 1 400 0 unix3.csc.calpol
+y.edu 47480
+Send Err-INIT ErrRate: 0.00 Drop: Y Flip: Y Rand: Y Debug: Y
+SEND MSG#   1 SEQ#   0 LEN   19 FLAGS 7  -FNAME    
+RECV          SEQ#   0 LEN    7 FLAGS 8  -FNAME response
+RECV          SEQ#   1 LEN   19 FLAGS 3  -Data #:    1
+SEND MSG#   2 SEQ#   1 LEN   11 FLAGS 5  -RR #:      1
+RECV          SEQ#   2 LEN    8 FLAGS 10  -User defined 
+SEND MSG#   3 SEQ#   2 LEN    8 FLAGS 11  -User defined 
+======== SeqNo Report ========
+  Msgs (Total)       :     3
+  Msgs (Unique SeqNo):     3
+==============================
+jplasko@unix3:~/CPE464/lab7 $ make
+gcc -c -g -Wall srej.c -o srej.o 
+gcc -g -Wall -o rcopy rcopy.c networks.o gethostbyname.o srej.o libcpe464.2.20.a -lstdc++ -ldl
+rcopy.c: In function âeck_argsârcopy.c:216:3: warning: format ââxpects argument of type âtâbut argument
+ 2 has type âze_tâ-Wformat=]
+   printf("FROM filename to long needs to be less than 100 and is: %d\n", strlen(argv[1]));
+   ^
+rcopy.c:222:3: warning: format ââxpects argument of type âtâbut argument
+ 2 has type âze_tâ-Wformat=]
+   printf("TO filename to long needs to be less than 100 and is: %d\n", strlen(argv[1]));
+   ^
+gcc -g -Wall -o server server.c networks.o gethostbyname.o srej.o libcpe464.2.20.a -lstdc++ -ldl
+jplasko@unix3:~/CPE464/lab7 $ ./rcopy info.txt take.txt 1 400 0 unix3.csc.calpol
+y.edu 58363
+Send Err-INIT ErrRate: 0.00 Drop: Y Flip: Y Rand: Y Debug: Y
+SEND MSG#   1 SEQ#   0 LEN   19 FLAGS 7  -FNAME    
+RECV          SEQ#   0 LEN    7 FLAGS 9  -User defined 
+======== SeqNo Report ========
+  Msgs (Total)       :     1
+  Msgs (Unique SeqNo):     1
+==============================
+jplasko@unix3:~/CPE464/lab7 $ make
+gcc -g -Wall -o server server.c networks.o gethostbyname.o srej.o libcpe464.2.20.a -lstdc++ -ldl
+jplasko@unix3:~/CPE464/lab7 $ ./rcopy info.txt take.txt 1 400 0 unix3.csc.calpol
+y.edu 38315
+Send Err-INIT ErrRate: 0.00 Drop: Y Flip: Y Rand: Y Debug: Y
+SEND MSG#   1 SEQ#   0 LEN   19 FLAGS 7  -FNAME    
+RECV          SEQ#   0 LEN    7 FLAGS 8  -FNAME response
+RECV          SEQ#   1 LEN   19 FLAGS 3  -Data #:    1
+SEND MSG#   2 SEQ#   1 LEN   11 FLAGS 5  -RR #:      1
+RECV          SEQ#   2 LEN    8 FLAGS 10  -User defined 
+SEND MSG#   3 SEQ#   2 LEN    8 FLAGS 11  -User defined 
+======== SeqNo Report ========
+  Msgs (Total)       :     3
+  Msgs (Unique SeqNo):     3
+==============================
+jplasko@unix3:~/CPE464/lab7 $ vim info.txt
+sfdghdjfghfhjkhjgfjklkhjgfjghcjgjdghjgdhjpenis worldgdjfgjfg
+jfgxjndfxjxgfhjgchjgjxfvcknnsldfjldskfjkllkdmklgkljfgjdglkjfdlkjgdljgfdlkjgfdjgl
+;kdsjgfdslkjg;ldksfjg;kldfjgkl;fdsjg;lkdfsjgl;ksdfjglkdfsjgdf
+dfsjgldfksjgdlkfjglkdfjgsdfkgjlkfds
+fgjkldsfjgkdflgjlkdfgjdlfkjglkdfjgldkfjgjksdflgkjsdflkgjlksdfjgklfdjgklfdjglkdfj
+sglkjfglkjfdjgsdjlf
+fsd
+gjkdsfjglsdfjg
+af
+kglsdljg
+sdfgk
+dfsjg
+sfdjg
+fsdgjk
+fdsljg
+lskdjg
+lksfdjgljklfdjgdfkljslkdsglkdjglkfdjglksjglkjlkgsjlkfjglksjdlgkjsdlkfjgklsfdjglk
+jdsflkjglkfsdjgkljlksfdjglkdjfslkjgsflkdjgkdjfglkjdfklglkdfsjlkgfdjglkdfsjglkdjf
+glkg
+you're cool
+~
+~
+"info.txt" 16L, 586C written                                  
+jplasko@unix3:~/CPE464/lab7 $ ./rcopy info.txt take.txt 1 400 0 unix3.csc.calpol
+y.edu 55517
+Send Err-INIT ErrRate: 0.00 Drop: Y Flip: Y Rand: Y Debug: Y
+SEND MSG#   1 SEQ#   0 LEN   19 FLAGS 7  -FNAME    
+RECV          SEQ#   0 LEN    7 FLAGS 8  -FNAME response
+RECV          SEQ#   1 LEN  407 FLAGS 3  -Data #:    1
+SEND MSG#   2 SEQ#   1 LEN   11 FLAGS 5  -RR #:      1
+RECV          SEQ#   2 LEN  193 FLAGS 3  -Data #:    2
+SEND MSG#   3 SEQ#   2 LEN   11 FLAGS 5  -RR #:      2
+RECV          SEQ#   3 LEN    8 FLAGS 10  -User defined 
+SEND MSG#   4 SEQ#   3 LEN    8 FLAGS 11  -User defined 
+======== SeqNo Report ========
+  Msgs (Total)       :     4
+  Msgs (Unique SeqNo):     4
+==============================
+jplasko@unix3:~/CPE464/lab7 $ cat take.txt
+sfdghdjfghfhjkhjgfjklkhjgfjghcjgjdghjgdhjpenis worldgdjfgjfg
+jfgxjndfxjxgfhjgchjgjxfvcknnsldfjldskfjkllkdmklgkljfgjdglkjfdlkjgdljgfdlkjgfdjgl;kdsjgfdslkjg;ldksfjg;kldfjgkl;fdsjg;lkdfsjgl;ksdfjglkdfsjgdf
+dfsjgldfksjgdlkfjglkdfjgsdfkgjlkfds
+fgjkldsfjgkdflgjlkdfgjdlfkjglkdfjgldkfjgjksdflgkjsdflkgjlksdfjgklfdjgklfdjglkdfjsglkjfglkjfdjgsdjlf
+fsd
+gjkdsfjglsdfjg
+af
+kglsdljg
+sdfgk
+dfsjg
+sfdjg
+fsdgjk
+fdsljg
+lskdjg
+lksfdjgljklfdjgdfkljslkdsglkdjglkfdjglksjglkjlkgsjlkfjglksjdlgkjsdlkfjgklsfdjglkjdsflkjglkfsdjgkljlksfdjglkdjfslkjgsflkdjgkdjfglkjdfklglkdfsjlkgfdjglkdfsjglkdjfglkg
+you're cool
+jplasko@unix3:~/CPE464/lab7 $ ./rcopy info.txt take.txt 1 400 1 unix3.csc.calpoly.edu 55517
+Error rate needs to be between 0 and less then 1 and is: 1
+jplasko@unix3:~/CPE464/lab7 $ ./rcopy info.txt take.txt 1 400 .999 unix3.csc.calpoly.edu 55517
+Send Err-INIT ErrRate: 1.00 Drop: Y Flip: Y Rand: Y Debug: Y
+SEND MSG#   1 SEQ#   0 LEN   19 FLAGS 7  -FNAME     - FLIPPED BITS 
+Select Timed Out - pid: 6206 sec: 1 usec: 0
+SEND MSG#   2 SEQ#   1 LEN   19 FLAGS 7  -FNAME     - FLIPPED BITS 
+Select Timed Out - pid: 6206 sec: 1 usec: 0
+SEND MSG#   3 SEQ#   2 LEN   19 FLAGS 7  -FNAME     - FLIPPED BITS 
+Select Timed Out - pid: 6206 sec: 1 usec: 0
+SEND MSG#   4 SEQ#   3 LEN   19 FLAGS 7  -FNAME     - DROPPED 
+Select Timed Out - pid: 6206 sec: 1 usec: 0
+SEND MSG#   5 SEQ#   4 LEN   19 FLAGS 7  -FNAME     - DROPPED 
+Select Timed Out - pid: 6206 sec: 1 usec: 0
+SEND MSG#   6 SEQ#   5 LEN   19 FLAGS 7  -FNAME     - FLIPPED BITS 
+Select Timed Out - pid: 6206 sec: 1 usec: 0
+SEND MSG#   7 SEQ#   6 LEN   19 FLAGS 7  -FNAME     - FLIPPED BITS 
+Select Timed Out - pid: 6206 sec: 1 usec: 0
+SEND MSG#   8 SEQ#   7 LEN   19 FLAGS 7  -FNAME     - DROPPED 
+Select Timed Out - pid: 6206 sec: 1 usec: 0
+SEND MSG#   9 SEQ#   8 LEN   19 FLAGS 7  -FNAME     - FLIPPED BITS 
+Select Timed Out - pid: 6206 sec: 1 usec: 0
+SEND MSG#  10 SEQ#   9 LEN   19 FLAGS 7  -FNAME     - FLIPPED BITS 
+Select Timed Out - pid: 6206 sec: 1 usec: 0
+SEND MSG#  11 SEQ#  10 LEN   19 FLAGS 7  -FNAME     - DROPPED 
+======== SeqNo Report ========
+  Msgs (Total)       :    11
+  Msgs (Unique SeqNo):    11
+==============================
+jplasko@unix3:~/CPE464/lab7 $ ./rcopy info.txt take.txt 1 400 .999 unix3.csc.calpoly.edu 55517
+Send Err-INIT ErrRate: 1.00 Drop: Y Flip: Y Rand: Y Debug: Y
+SEND MSG#   1 SEQ#   0 LEN   19 FLAGS 7  -FNAME     - FLIPPED BITS 
+Select Timed Out - pid: 6244 sec: 1 usec: 0
+SEND MSG#   2 SEQ#   1 LEN   19 FLAGS 7  -FNAME     - DROPPED 
+Select Timed Out - pid: 6244 sec: 1 usec: 0
+SEND MSG#   3 SEQ#   2 LEN   19 FLAGS 7  -FNAME     - FLIPPED BITS 
+Select Timed Out - pid: 6244 sec: 1 usec: 0
+SEND MSG#   4 SEQ#   3 LEN   19 FLAGS 7  -FNAME     - DROPPED 
+Select Timed Out - pid: 6244 sec: 1 usec: 0
+SEND MSG#   5 SEQ#   4 LEN   19 FLAGS 7  -FNAME     - DROPPED 
+Select Timed Out - pid: 6244 sec: 1 usec: 0
+SEND MSG#   6 SEQ#   5 LEN   19 FLAGS 7  -FNAME     - FLIPPED BITS 
+Select Timed Out - pid: 6244 sec: 1 usec: 0
+SEND MSG#   7 SEQ#   6 LEN   19 FLAGS 7  -FNAME     - FLIPPED BITS 
+Select Timed Out - pid: 6244 sec: 1 usec: 0
+SEND MSG#   8 SEQ#   7 LEN   19 FLAGS 7  -FNAME     - FLIPPED BITS 
+Select Timed Out - pid: 6244 sec: 1 usec: 0
+SEND MSG#   9 SEQ#   8 LEN   19 FLAGS 7  -FNAME     - DROPPED 
+Select Timed Out - pid: 6244 sec: 1 usec: 0
+SEND MSG#  10 SEQ#   9 LEN   19 FLAGS 7  -FNAME     - DROPPED 
+Select Timed Out - pid: 6244 sec: 1 usec: 0
+SEND MSG#  11 SEQ#  10 LEN   19 FLAGS 7  -FNAME     - FLIPPED BITS 
+======== SeqNo Report ========
+  Msgs (Total)       :    11
+  Msgs (Unique SeqNo):    11
+==============================
+jplasko@unix3:~/CPE464/lab7 $ ./rcopy info.txt take.txt 1 400 .5 unix3.csc.calpoly.edu 55517
+Send Err-INIT ErrRate: 0.50 Drop: Y Flip: Y Rand: Y Debug: Y
+SEND MSG#   1 SEQ#   0 LEN   19 FLAGS 7  -FNAME     - DROPPED 
+Select Timed Out - pid: 6287 sec: 1 usec: 0
+SEND MSG#   2 SEQ#   1 LEN   19 FLAGS 7  -FNAME     - DROPPED 
+Select Timed Out - pid: 6287 sec: 1 usec: 0
+SEND MSG#   3 SEQ#   2 LEN   19 FLAGS 7  -FNAME     - DROPPED 
+Select Timed Out - pid: 6287 sec: 1 usec: 0
+SEND MSG#   4 SEQ#   3 LEN   19 FLAGS 7  -FNAME     - FLIPPED BITS 
+Select Timed Out - pid: 6287 sec: 1 usec: 0
+SEND MSG#   5 SEQ#   4 LEN   19 FLAGS 7  -FNAME    
+Select Timed Out - pid: 6287 sec: 1 usec: 0
+SEND MSG#   6 SEQ#   5 LEN   19 FLAGS 7  -FNAME     - FLIPPED BITS 
+Select Timed Out - pid: 6287 sec: 1 usec: 0
+SEND MSG#   7 SEQ#   6 LEN   19 FLAGS 7  -FNAME     - DROPPED 
+Select Timed Out - pid: 6287 sec: 1 usec: 0
+SEND MSG#   8 SEQ#   7 LEN   19 FLAGS 7  -FNAME     - FLIPPED BITS 
+Select Timed Out - pid: 6287 sec: 1 usec: 0
+SEND MSG#   9 SEQ#   8 LEN   19 FLAGS 7  -FNAME     - FLIPPED BITS 
+Select Timed Out - pid: 6287 sec: 1 usec: 0
+SEND MSG#  10 SEQ#   9 LEN   19 FLAGS 7  -FNAME     - DROPPED 
+Select Timed Out - pid: 6287 sec: 1 usec: 0
+SEND MSG#  11 SEQ#  10 LEN   19 FLAGS 7  -FNAME     - FLIPPED BITS 
+======== SeqNo Report ========
+  Msgs (Total)       :    11
+  Msgs (Unique SeqNo):    11
+==============================
+jplasko@unix3:~/CPE464/lab7 $ ./rcopy info.txt take.txt 1 400 .5 unix3.csc.calpoly.edu 55517
+Send Err-INIT ErrRate: 0.50 Drop: Y Flip: Y Rand: Y Debug: Y
+SEND MSG#   1 SEQ#   0 LEN   19 FLAGS 7  -FNAME     - DROPPED 
+Select Timed Out - pid: 6306 sec: 1 usec: 0
+SEND MSG#   2 SEQ#   1 LEN   19 FLAGS 7  -FNAME    
+Select Timed Out - pid: 6306 sec: 1 usec: 0
+SEND MSG#   3 SEQ#   2 LEN   19 FLAGS 7  -FNAME     - FLIPPED BITS 
+Select Timed Out - pid: 6306 sec: 1 usec: 0
+SEND MSG#   4 SEQ#   3 LEN   19 FLAGS 7  -FNAME    
+Select Timed Out - pid: 6306 sec: 1 usec: 0
+SEND MSG#   5 SEQ#   4 LEN   19 FLAGS 7  -FNAME    
+Select Timed Out - pid: 6306 sec: 1 usec: 0
+SEND MSG#   6 SEQ#   5 LEN   19 FLAGS 7  -FNAME    
+Select Timed Out - pid: 6306 sec: 1 usec: 0
+SEND MSG#   7 SEQ#   6 LEN   19 FLAGS 7  -FNAME    
+Select Timed Out - pid: 6306 sec: 1 usec: 0
+SEND MSG#   8 SEQ#   7 LEN   19 FLAGS 7  -FNAME     - FLIPPED BITS 
+Select Timed Out - pid: 6306 sec: 1 usec: 0
+SEND MSG#   9 SEQ#   8 LEN   19 FLAGS 7  -FNAME     - DROPPED 
+Select Timed Out - pid: 6306 sec: 1 usec: 0
+SEND MSG#  10 SEQ#   9 LEN   19 FLAGS 7  -FNAME     - DROPPED 
+Select Timed Out - pid: 6306 sec: 1 usec: 0
+SEND MSG#  11 SEQ#  10 LEN   19 FLAGS 7  -FNAME    
+======== SeqNo Report ========
+  Msgs (Total)       :    11
+  Msgs (Unique SeqNo):    11
+==============================
+jplasko@unix3:~/CPE464/lab7 $ ./rcopy info.txt take.txt 1 400 .5 unix3.csc.calpo
+ly.edu 52457
+Send Err-INIT ErrRate: 0.50 Drop: Y Flip: Y Rand: Y Debug: Y
+SEND MSG#   1 SEQ#   0 LEN   19 FLAGS 7  -FNAME     - DROPPED 
+Select Timed Out - pid: 6329 sec: 1 usec: 0
+SEND MSG#   2 SEQ#   1 LEN   19 FLAGS 7  -FNAME     - DROPPED 
+Select Timed Out - pid: 6329 sec: 1 usec: 0
+SEND MSG#   3 SEQ#   2 LEN   19 FLAGS 7  -FNAME    
+RECV          SEQ#   0 LEN    7 FLAGS 8  -FNAME response
+RECV          SEQ#   1 LEN  407 FLAGS 3  -Data #:    1
+SEND MSG#   4 SEQ#   3 LEN   11 FLAGS 5  -RR #:      1
+RECV          SEQ#   2 LEN  193 FLAGS 3  -Data #:    2
+SEND MSG#   5 SEQ#   4 LEN   11 FLAGS 5  -RR #:      2 - DROPPED 
+RECV          SEQ#   2 LEN  193 FLAGS 3  -Data #:    2
+SEND MSG#   6 SEQ#   5 LEN   11 FLAGS 5  -RR #:      2
+RECV          SEQ#   3 LEN    8 FLAGS 10  -User defined 
+SEND MSG#   7 SEQ#   6 LEN    8 FLAGS 11  -User defined  - DROPPED 
+======== SeqNo Report ========
+  Msgs (Total)       :     7
+  Msgs (Unique SeqNo):     7
+==============================
+jplasko@unix3:~/CPE464/lab7 $ ^C
+jplasko@unix3:~/CPE464/lab7 $ vim info.txt
+sfdghdjfghfhjkhjgfjklkhjgfjghcjgjdghjgdhjpenis worldgdjfgjfg
+jfgxjndfxjxgfhjgchjgjxfvcknnsldfjldskfjkllkdmklgkljfgjdglkjfdlkjgdljgfdlkjgfdjgl;kdsjgfdslkjg;ldksfjg;kldfjgkl;fdsjg;lkdfsjgl;ksdfjglkdfsjgdf
+dfsjgldfksjgdlkfjglkdfjgsdfkgjlkfds
+fgjkldsfjgkdflgjlkdfgjdlfkjglkdfjgldkfjgjksdflgkjsdflkgjlksdfjgklfdjgklfdjglkdfjsglkjfglkjfdjgsdjlf
+fsd
+gjkdsfjglsdfjg
+af
+kglsdljg
+sdfgk
+dfsjg
+sfdjg
+fsdgjk
+fdsljg
+lskdjg
+lksfdjgljklfdjgdfkljslkdsglkdjglkfdjglksjglkjlkgsjlkfjglksjdlgkjsdlkfjgklsfdjglkjdsflkjglkfsdjgkljlksfdjglkdjfslkjgsflkdjgkdjfglkjdfklglkdfsjlkgfdjglkdfsjglkdjfglkg
+you're cool
+~
+~
+"info.txt" 16L, 586C                                          16,1          All
+
